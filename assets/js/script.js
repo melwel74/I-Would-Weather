@@ -1,5 +1,5 @@
 // write a fetch request for weather api
-fetch('https://api.openweathermap.org/data/2.5/onecall?=152c0053bd312e868c9d2a106ccbf7b1s')
+fetch('https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}')
 
     .then(function (response) {
         return response.json();
